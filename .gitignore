@@ -1,0 +1,18 @@
+# 認証情報（コミット禁止）
+.env
+.env.*
+!.env.example
+client_secret*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 個人の健康データ・作業メモ（公開しない）
+data/*
+!data/.gitkeep
+logs/
+.images/
+.zenn/
+docs/
